@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+	--font: 'Open Sans', 'OpenSans', sans-serif;
+}
+
+body {
+	background-color: #0a072e;
+}
+
+#userPhoto {
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: 35px auto 20px;
+	-webkit-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	-moz-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	transition: all 0.15s;
+}
+
+#userPhoto:hover {
+	box-shadow: 0px 8px rgba(222, 218, 162, 1);
+	transform: translateY(-2px);
+}
+
+#userPhoto:active {
+	box-shadow: 0px 0px black;
+	transform: translateY(6px);
+}
+
+#userName {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+        margin: 10px;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+        transition: all 0.15s;
+        transform: scale(1,1)
+}
+
+#userName:hover {
+        transition: all 0.15s;
+        transform: scale(1.1,1.1)
+}
+
+#links {
+	max-width: 675px;
+	width: auto;
+	display: block;
+	margin: 27px auto;
+}
+
+@media only screen and (max-width: 700px) {
+	#links {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.night_mode {
+		margin-right: 40%;
+	}
+}
+
+.link {
+	display: block;
+	background-color: #01A79B;
+	color: #fff;
+	font-family: var(--font);
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 17px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: all 0.15s;
+	box-shadow: 0px 6px #007569;
+}
+
+.link:hover {
+	/* background: #019489; */
+	box-shadow: 0px 8px #007569;
+	transform: translateY(-2px);
+}
+
+.link:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #007569;
+}
+
+#proker {
+	max-width: 300px;
+	width: auto;
+	display: grid;
+	margin: 27px auto;
+}
+
+.footer {
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.media {
+	background: #DD5A79;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	box-shadow: 0px 6px #9E4355;
+	transition: all 0.15s;
+}
+
+.media:hover {
+	box-shadow: 0px 8px #9E4355;
+	transform: translateY(-2px);
+}
+
+.media:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #9E4355;
+}
+   </style>
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+        <link href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css' rel='stylesheet'/>
+        <link rel="stylesheet" href="style.css">
+        <title>Rachatat Bunpat</title>
+   </head>
+   <body>
+        <div class='navbar no-items section' id='navbar'></div>
+        <img alt='User Photo' id='userPhoto' src='https://d1fdloi71mui9q.cloudfront.net/vKmS6163TfygpA5t4F6s_c6Dg2G09txNjzLMu'/>
+        <spam id='userName'>Rachatat Bunpat</spam>
+        <div  id='links'>
+            <a class='link' href='mailto:rbunpat@gmail.com' target='_blank'><i aria-hidden='true' class='fa fa-envelope'></i>&#160;&#160;Email</a>
+            <a class='link' href='https://www.facebook.com/rachatat.bunpat.37' target='_blank'><i aria-hidden='true' class='fa fa-facebook /i>'></i>&#160;&#160;Facebook</a>
+            <a class='link' href='https://www.instagram.com/mvidia_jeforce/' target='_blank'><i aria-hidden='true' class='fa fa-instagram'></i>&#160;&#160;Instagram</a>
+            <a class='link' href='https://www.reddit.com/user/Pretend_Sympathy7373' target='_blank'><i aria-hidden='true' class='fa fa-reddit-alien'></i>&#160;&#160;Reddit</a>
+        </div>
+        <div class='footer'>
+        </div>
+      <!-- Javascript -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    </body>
+</html>
