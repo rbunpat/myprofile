@@ -8,6 +8,14 @@
 body {
 	background-color: #0a072e;
 	overflow: hidden; /* hide scroll bar */
+	background-image: linear-gradient(45deg, rgb(20, 221, 110), rgb(20, 208, 221), rgb(10, 76, 255));
+	background-size: 400%;
+	animation: bg-animation 15s infinite alternate;
+}
+
+@keyframes bg-animation {
+	0% {background-position: left;}
+    100% {background-position: right;}
 }
 
 #userPhoto {
@@ -15,24 +23,28 @@ body {
 	height: 130px;
 	display: block;
 	margin: 35px auto 20px;
-	-webkit-box-shadow: 0px 10px 0px 0px rgb(222, 218, 162, 1);
+	/*-webkit-box-shadow: 0px 10px 0px 0px rgb(222, 218, 162, 1);
 	-moz-box-shadow: 0px 10px 0px 0px rgba(222, 218, 162, 1);
-	box-shadow: 0px 10px 0px 0px rgba(222, 218, 162, 1);
+	box-shadow: 0px 10px 0px 0px rgba(222, 218, 162, 1);*/
 	transition: all 0.15s;
+	mix-blend-mode: darken;
 }
 
 #userPhoto:hover {
-	box-shadow: 0px 10px rgba(222, 218, 162, 1);
+	/*box-shadow: 0px 10px rgba(222, 218, 162, 1);*/
 	transform: translateY(-2px);
+	mix-blend-mode: darken;
 }
 
 #userPhoto:active {
-	box-shadow: 0px 0px black;
+	/*box-shadow: 0px 0px black;*/
 	transform: translateY(6px);
+	mix-blend-mode: darken;
 }
 
 #userName {
-	color: #F2F0D5;
+	color: #000000e1;
+	
 	font-size: 1.9rem;
 	font-weight: 600;
 	line-height: 1.25;
@@ -71,7 +83,7 @@ body {
 .link {
 	display: block;
 	background-color: #01A79B;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-family: var(--font);
 	text-align: center;
 	margin-bottom: 20px;
