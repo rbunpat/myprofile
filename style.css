@@ -27,19 +27,18 @@ body {
 	-moz-box-shadow: 0px 10px 0px 0px rgba(222, 218, 162, 1);
 	box-shadow: 0px 10px 0px 0px rgba(222, 218, 162, 1);*/
 	transition: all 0.15s;
-	mix-blend-mode: darken;
 }
 
 #userPhoto:hover {
 	/*box-shadow: 0px 10px rgba(222, 218, 162, 1);*/
-	transform: translateY(-2px);
-	mix-blend-mode: darken;
+	/*transform: translateY(px);*/
+	transform: scale(1.1,1.1);
 }
 
 #userPhoto:active {
 	/*box-shadow: 0px 0px black;*/
-	transform: translateY(6px);
-	mix-blend-mode: darken;
+	transform: translateY(0px);
+	/*transform: scale(1.2,1.2);*/
 }
 
 #userName {
