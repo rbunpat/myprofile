@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+:root {
+	--font: 'Ubuntu', 'ubuntu', sans-serif;
+}
+
+body {
+	background-color: #0a072e;
+	overflow: hidden; /* hide scroll bar */
+	background-image: linear-gradient(90deg, rgb(20, 221, 110), rgb(20, 208, 221), rgb(10, 76, 255));
+	background-size: 300%;
+	animation: bg-animation 10s infinite alternate;
+}
+
+@keyframes bg-animation {
+	0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+h {
+    font-size: xx-large;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    margin-left: 12.5%;
+    margin-bottom: 20%;
+    position: relative
+    /*text-align: center;*/
+    /*position: center;*/
+}
