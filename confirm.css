@@ -9,16 +9,16 @@ body {
 	background-size: 900%;
 	animation: bg-animation 10s infinite alternate;
 }
-
+/*hide scroll bar*/
 body::-webkit-scrollbar {
-    display: none;/*hide scroll bar for chrome safari and opera*/
+    display: none; /*hide scroll bar for chrome safari and opera*/
 }
 
 body {
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
-
+/*end of hide scrollbar*/
 @keyframes bg-animation {
 	0% {background-position: left;}
     100% {background-position: right;}
@@ -33,7 +33,13 @@ a {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: #0a072e;
-    font-size: x-large;
-    /*align-items: center;   */
-    margin-left: 10%;
+    font-size: 2rem;
+    text-align: center; 
+    margin-left: 30%; 
+    margin-right: 30%; 
+    display: block;
+    margin-top: 15px;
+    border: 3px dashed rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
 }
