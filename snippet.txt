@@ -1,0 +1,1 @@
+<model-viewer camera-controls src="invention.glb" alt="A 3D model of an astronaut"></model-viewer>
