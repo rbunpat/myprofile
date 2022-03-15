@@ -25,7 +25,6 @@ body {
 }
 
 h1 {
-    max-width: 80%;
     font-size:6rem;
     font-family: 'Ubuntu';
     font-weight: 900;
@@ -38,7 +37,6 @@ h1 {
     100% {opacity: 1;}
 }
 p {
-    max-width: 80%;
     text-align: center;
     font-size: 3rem;
     font-family: 'Ubuntu';
