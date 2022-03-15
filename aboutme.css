@@ -25,23 +25,29 @@ body {
 }
 
 h1 {
+    max-width: 70%;
     font-size:6rem;
     font-family: 'Ubuntu';
     font-weight: 900;
     text-align: center;
     animation: titleanimation 1s ;
+    margin-left: auto;
+    margin-left: auto;
 }
 
 @keyframes titleanimation {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
-p {
+p {]
+    max-width: 70%;
     text-align: center;
     font-size: 3rem;
     font-family: 'Ubuntu';
     font-weight: 900;
     animation: textanimation 1s;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes textanimation {
