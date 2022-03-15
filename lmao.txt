@@ -1,1 +1,0 @@
-http://61.19.75.53/webapp/2020/scss/index.php?page=student_evaluateSDQ&student_id=35058&year=2564&evaluate_type=P
