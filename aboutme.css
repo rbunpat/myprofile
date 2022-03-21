@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #0a072e;
+	/*background-color: #0a072e;*/
 	background-image: linear-gradient(90deg, rgb(20, 221, 110), rgb(20, 208, 221),);
 	background-size: 900%;
 	animation: bg-animation 10s infinite alternate;
