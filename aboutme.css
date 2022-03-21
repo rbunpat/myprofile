@@ -34,6 +34,16 @@ h1 {
     animation: titleanimation 1s ;
 }
 
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    animation: titleanimation 1s;
+}
+
 @keyframes titleanimation {
     0% {opacity: 0;}
     100% {opacity: 1;}
