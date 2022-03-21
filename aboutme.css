@@ -54,17 +54,7 @@ h3 {
     animation: titleanimation 1s;
 }
 
-.intro {
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Ubuntu';
-    font-weight: 300;
-    animation: titleanimation 1s;
-}
-
-p.skllist {
+.skllist {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -77,7 +67,7 @@ p.skllist {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
-p {
+.intro {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
