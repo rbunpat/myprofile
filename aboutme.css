@@ -48,9 +48,9 @@ h3 {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Ubuntu';
-    font-weight: 400;
+    font-weight: 600;
     animation: titleanimation 1s;
 }
 
@@ -60,7 +60,7 @@ h3 {
     text-align: center;
     font-size: 4rem;
     font-family: 'Ubuntu';
-    font-weight: 600;
+    font-weight: 400;
     animation: titleanimation 1s;
 }
 
