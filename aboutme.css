@@ -3,6 +3,10 @@
 	--font: 'Ubuntu', 'ubuntu', sans-serif;
 }
 
+h3 {
+    font-size: calc(1.5em + 1vw);
+}
+
 
 @media screen and (max-width: 768px) {
     .container {
