@@ -3,6 +3,13 @@
 	--font: 'Ubuntu', 'ubuntu', sans-serif;
 }
 
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
