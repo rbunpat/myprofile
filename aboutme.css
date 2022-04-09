@@ -3,9 +3,6 @@
 	--font: 'Ubuntu', 'ubuntu', sans-serif;
 }
 
-h3 {
-    font-size: calc(1.5em + 1vw);
-}
 
 
 @media screen and (max-width: 768px) {
@@ -19,7 +16,7 @@ h3 {
 }
 
 body {
-    width: 100%;
+   /* width: 100%;
 	/*background-color: #0a072e;*/
 	background-image: linear-gradient(90deg, rgb(20, 221, 110), rgb(20, 208, 221));
 	background-size: 900%;
@@ -61,8 +58,6 @@ h2 {
 }
 
 h3 {
-    margin-left: 20%;
-    margin-right: 20%;
     text-align: center;
     font-size: 4rem;
     font-family: 'Ubuntu';
